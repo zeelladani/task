@@ -1,14 +1,13 @@
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "add here your firebase configuration",
-    authDomain: "add here your firebase configuration",
-    databaseURL: "add here your firebase configuration",
-    projectId: "add here your firebase configuration",
-    storageBucket: "add here your firebase configuration",
-    messagingSenderId: "add here your firebase configuration6",
-    appId: "add here your firebase configuration",
-    measurementId: "add here your firebase configuration"
-};
+    apiKey: "AIzaSyBSxD-HhWrxu5ZRf9vFkIOq3Z9ivAS5SrA",
+    authDomain: "tasklogger-798b9.firebaseapp.com",
+    projectId: "tasklogger-798b9",
+    storageBucket: "tasklogger-798b9.firebasestorage.app",
+    messagingSenderId: "649384365786",
+    appId: "1:649384365786:web:e3c7ae4684608f9c6e1fe3",
+    measurementId: "G-YMFTRDMGJN"
+  };
 
 // Check if Firebase is already initialized
 let app;
@@ -51,3 +50,4 @@ if (typeof module !== 'undefined' && module.exports) {
     module.exports = { firebaseConfig, auth, db };
 
 }
+
